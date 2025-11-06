@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matt's Emissions Calculator",
-  description: "Calculate the environmental impact of private jet flights across 48+ aircraft models",
+  title: "Emissions Calculator",
+  description: "Calculate environmental impact of private jet flights",
 };
 
 export default function RootLayout({

@@ -96,14 +96,6 @@ export function CalculatorForm() {
 
   return (
     <div className="container mx-auto p-4 space-y-6">
-      {/* Header */}
-      <div className="text-center space-y-2">
-        <h1 className="text-4xl font-bold text-white">Matt&apos;s Emissions Calculator</h1>
-        <p className="text-lg text-slate-300">
-          Calculate and compare the carbon footprint of your private jet flights
-        </p>
-      </div>
-
       <Tabs defaultValue="calculator" className="space-y-6">
         <TabsList className="grid w-full grid-cols-1">
           <TabsTrigger value="calculator" className="flex items-center gap-2">
