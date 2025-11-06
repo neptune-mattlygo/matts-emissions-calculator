@@ -8,6 +8,9 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-white mb-4">
             Matt&apos;s Emissions Calculator
           </h1>
+          <p className="text-xl italic text-slate-400 mb-6">
+            (because some emissions aren&apos;t just in the air)
+          </p>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Calculate the environmental impact of private jet flights. Compare emissions across 48+ aircraft models 
             and understand the carbon footprint of luxury aviation.
